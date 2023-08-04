@@ -25,23 +25,27 @@ function Menu() {
   }, [open]);
 
   return (
-    <div className="header__menu">
+    <div className={style.header__menu}>
       {open ? (
-        <button className="toggle-button close" onClick={() => setOpen(false)}>
+        <button className={`${style.toggle_button} ${style.close}`} onClick={() => setOpen(false)}>
           <div></div>
           <div></div>
           <div></div>
         </button>
       ) : (
-        <button className="toggle-button" onClick={() => setOpen(true)}>
+        <button className={style.toggle_button} onClick={() => setOpen(true)}>
           <div></div>
           <div></div>
           <div></div>
         </button>
       )}
-      <aside className={open ? "header__menu__overlay" : "header__menu__overlay isHidden"}>
-        <nav className="header__menu__overlay__container">
-          <ul className="header__menu__overlay__links" onClick={() => setOpen(false)}>
+      <aside
+        className={
+          open ? style.header__menu__overlay : `${style.header__menu__overlay} ${style.isHidden}}`
+        }
+      >
+        <nav className={style.header__menu__overlay__container}>
+          <ul className={style.header__menu__overlay__links} onClick={() => setOpen(false)}>
             <li>
               <a href="#about">About</a>
             </li>
@@ -53,7 +57,7 @@ function Menu() {
             </li>
           </ul>
           <div>
-            <a href="./resume.pdf" className="button-resume">
+            <a href="./resume.pdf" className={style.button_resume}>
               Resume
             </a>
           </div>

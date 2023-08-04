@@ -5,7 +5,7 @@
   height: 3rem;
 }
 
-.toggle-button {
+.toggle_button {
   position: relative;
   z-index: 6;
   display: flex;
@@ -92,7 +92,7 @@
   width: 100%;
 }
 
-.button-resume {
+.button_resume {
   border: solid 1px var(--secondary-color);
   background: transparent;
   color: var(--secondary-color);
@@ -102,7 +102,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.button-resum:hover {
+.button_resume:hover {
   background: rgba(242, 202, 82, 0.2);
 }
 
