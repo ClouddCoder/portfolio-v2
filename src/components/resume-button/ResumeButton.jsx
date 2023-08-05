@@ -1,4 +1,4 @@
-import styles from "./ResumeButton.module.scss";
+import styles from "./ResumeButton.module.css";
 
 function ResumeButton() {
   return (

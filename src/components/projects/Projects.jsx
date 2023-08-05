@@ -3,6 +3,7 @@ import Ecommerce from "../assets/ecommerce.png";
 import Encriptador from "../assets/encriptador.png";
 import WeatherApp from "../assets/weather-app.png";
 import TaskManager from "../assets/task-manager.png";
+import styles from "./Projects.module.css";
 
 function Projects() {
   return (

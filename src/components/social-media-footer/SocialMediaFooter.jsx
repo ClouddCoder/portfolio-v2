@@ -1,14 +1,14 @@
-import styles from "./SocialMediaBar.module.css";
+import styles from "./SocialMediaFooter.module.css";
 
-function SocialMediaBar() {
+function SocialMediaFooter() {
   return (
-    <div className={`${styles["side-social-media"]} hidden`} style="--order: 9">
+    <div className={styles["side-social-media"]}>
       <ul className={styles.ul}>
         <li>
-          <a className={styles.icon} href="https://github.com/ClouddCoder" target="_blank">
+          <a className="icon" href="https://github.com/ClouddCoder" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`${styles.svg} ${styles.icon} icon-tabler icon-tabler-brand-github`}
+              className="icon icon-tabler icon-tabler-brand-github"
               width="30"
               height="30"
               viewBox="0 0 24 24"
@@ -24,14 +24,10 @@ function SocialMediaBar() {
           </a>
         </li>
         <li>
-          <a
-            className={styles.icon}
-            href="https://www.linkedin.com/in/brayansanchez01/"
-            target="_blank"
-          >
+          <a className="icon" href="https://www.linkedin.com/in/brayansanchez01/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`${styles.svg} ${styles.icon} icon-tabler icon-tabler-brand-linkedin`}
+              className="icon icon-tabler icon-tabler-brand-linkedin"
               width="30"
               height="30"
               viewBox="0 0 24 24"
@@ -55,4 +51,4 @@ function SocialMediaBar() {
   );
 }
 
-export default SocialMediaBar;
+export default SocialMediaFooter;

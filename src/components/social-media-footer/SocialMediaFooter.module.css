@@ -1,0 +1,13 @@
+/* For mobile phones and tablets */
+.ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* For desktop and large devices */
+@media only screen and (min-width: 992px) {
+  .side-social-media {
+    display: none;
+  }
+}
