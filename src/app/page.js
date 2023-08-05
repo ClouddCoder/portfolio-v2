@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Logo from "/public/logo.svg";
-import Navbar from "../components/Navbar.astro";
+import Navbar from "../components/navbar/Navbar";
 import Menu from "../components/menu/Menu";
-import Hero from "../components/Hero.astro";
-import About from "../components/About.astro";
-import Projects from "../components/Projects.astro";
-import Contact from "../components/Contact.astro";
-import ResumeButton from "../components/ResumeButton.astro";
-import SocialMediaBar from "../components/SocialMediaBar.astro";
-import SocialMediaFooter from "../components/SocialMediaFooter.astro";
+import Hero from "../components/hero/Hero";
+import About from "../components/about/About";
+import Projects from "../components/projects/Projects";
+import Contact from "../components/contact/Contact";
+import ResumeButton from "../components/resume-button/ResumeButton";
+import SocialMediaBar from "../components/social-media-bar/SocialMediaBar";
+import SocialMediaFooter from "../components/social-media-footer/SocialMediaFooter";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
               </a>
             </div>
             <Navbar />
-            <Menu client:visible>
+            <Menu>
               <ResumeButton />
             </Menu>
           </nav>
