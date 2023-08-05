@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import style from "./Menu.module.css";
+import styles from "./Menu.module.css";
 
 /**
  * Menu component to display the overlay.
@@ -25,15 +25,18 @@ function Menu() {
   }, [open]);
 
   return (
-    <div className={style.header__menu}>
+    <div className={styles.header__menu}>
       {open ? (
-        <button className={`${style.toggle_button} ${style.close}`} onClick={() => setOpen(false)}>
+        <button
+          className={`${styles.toggle_button} ${styles.close}`}
+          onClick={() => setOpen(false)}
+        >
           <div></div>
           <div></div>
           <div></div>
         </button>
       ) : (
-        <button className={style.toggle_button} onClick={() => setOpen(true)}>
+        <button className={styles.toggle_button} onClick={() => setOpen(true)}>
           <div></div>
           <div></div>
           <div></div>
@@ -41,11 +44,13 @@ function Menu() {
       )}
       <aside
         className={
-          open ? style.header__menu__overlay : `${style.header__menu__overlay} ${style.isHidden}}`
+          open
+            ? styles.header__menu__overlay
+            : `${styles.header__menu__overlay} ${styles.isHidden}}`
         }
       >
-        <nav className={style.header__menu__overlay__container}>
-          <ul className={style.header__menu__overlay__links} onClick={() => setOpen(false)}>
+        <nav className={styles.header__menu__overlay__container}>
+          <ul className={styles.header__menu__overlay__links} onClick={() => setOpen(false)}>
             <li>
               <a href="#about">About</a>
             </li>
@@ -57,7 +62,7 @@ function Menu() {
             </li>
           </ul>
           <div>
-            <a href="./resume.pdf" className={style.button_resume}>
+            <a href="./resume.pdf" className={styles.button_resume}>
               Resume
             </a>
           </div>

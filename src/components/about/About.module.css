@@ -1,0 +1,44 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.my-skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.my-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.my-skills-list__div {
+  background: var(--secondary-color);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+}
