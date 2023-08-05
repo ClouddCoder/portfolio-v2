@@ -85,7 +85,6 @@ a:hover {
   }
 }
 
-.hero-field,
 .side-social-media {
   transition-delay: calc(100ms * var(--order));
 }
