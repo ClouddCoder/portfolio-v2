@@ -1,0 +1,92 @@
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form :global(input) {
+  color: var(--fc-paragraph);
+  background: var(--main-color);
+  border: 1px solid var(--fc-paragraph);
+  border-radius: 5px;
+  padding: 15px;
+  font-size: clamp(0.875rem, 5vw, 1rem);
+}
+
+.textarea {
+  color: var(--fc-paragraph);
+  background: var(--main-color);
+  border: 1px solid var(--fc-paragraph);
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  height: 200px;
+  font-size: clamp(0.875rem, 5vw, 1rem);
+  resize: none;
+}
+
+.container-button {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  border: solid 1px var(--secondary-color);
+  background: transparent;
+  color: var(--secondary-color);
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background: rgba(242, 202, 82, 0.2);
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: auto;
+  }
+
+  .form {
+    width: 700px;
+  }
+
+  .textarea {
+    height: 100px;
+  }
+
+  .button {
+    width: auto;
+  }
+
+  .container-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
