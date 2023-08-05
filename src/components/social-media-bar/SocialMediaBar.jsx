@@ -2,7 +2,7 @@ import styles from "./SocialMediaBar.module.css";
 
 function SocialMediaBar() {
   return (
-    <div className={`${styles["side-social-media"]} hidden`} style="--order: 9">
+    <div className={`${styles["side-social-media"]} hidden`} sstyle={{ "--order": 9 }}>
       <ul className={styles.ul}>
         <li>
           <a className={styles.icon} href="https://github.com/ClouddCoder" target="_blank">

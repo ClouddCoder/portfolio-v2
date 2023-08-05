@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Ecommerce from "../assets/ecommerce.png";
-import Encriptador from "../assets/encriptador.png";
-import WeatherApp from "../assets/weather-app.png";
-import TaskManager from "../assets/task-manager.png";
+import Ecommerce from "../../assets/ecommerce.png";
+import Encriptador from "../../assets/encriptador.png";
+import WeatherApp from "../../assets/weather-app.png";
+import TaskManager from "../../assets/task-manager.png";
 import styles from "./Projects.module.css";
 
 function Projects() {
@@ -110,3 +110,5 @@ function Projects() {
     </section>
   );
 }
+
+export default Projects;
