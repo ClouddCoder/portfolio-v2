@@ -1,5 +1,4 @@
 import "./globals.css";
-import styles from "./page.module.css";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -37,7 +36,7 @@ export default function RootLayout({ children }) {
         <meta name="msapplication-config" content="/portfolio/browserconfig.xml" />
         {/* ****** faviconit.com favicons ****** */}
       </head>
-      <body>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
