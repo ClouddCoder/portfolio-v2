@@ -12,12 +12,15 @@ function Menu() {
 
   useEffect(() => {
     const blurMainContent = () => {
-      const body = document.querySelector("body");
+      const main = document.querySelector("main");
+      const footer = document.querySelector("footer");
 
       if (open) {
-        body.classList.add("blur");
+        main.classList.add("blur");
+        footer.classList.add("blur");
       } else {
-        body.classList.remove("blur");
+        main.classList.remove("blur");
+        footer.classList.remove("blur");
       }
     };
 

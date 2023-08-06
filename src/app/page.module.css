@@ -55,11 +55,6 @@
   }
 }
 
-.blur .main,
-.blur .footer {
-  filter: blur(5px) brightness(0.7);
-}
-
 .footer {
   display: flex;
   justify-content: center;
