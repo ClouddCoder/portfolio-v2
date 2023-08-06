@@ -16,9 +16,8 @@ function Hero() {
         Always learning to be better.
       </h3>
       <p className={`${styles["hero-field"]} ${styles.p} hidden `} style={{ "--order": 8 }}>
-        <strong>software developer</strong> focused on building scalable and user-friendly
-        <strong>web applications</strong> implementing the knowledge I've acquired through
-        continuous learning.
+        <strong>Software developer</strong> focused on building scalable and user-friendly
+        <strong> web applications</strong> implementing the best tools to optimize the performance.
       </p>
     </section>
   );
