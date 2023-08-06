@@ -28,7 +28,7 @@
   gap: 10px;
 }
 
-.my-skills-list__div {
+.my-skills-list :global(div) {
   background: var(--secondary-color);
   border-radius: 5px;
   padding: 1rem 2rem;
