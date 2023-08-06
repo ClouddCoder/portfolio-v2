@@ -44,9 +44,7 @@ function Menu() {
       )}
       <aside
         className={
-          open
-            ? styles.header__menu__overlay
-            : `${styles.header__menu__overlay} ${styles.isHidden}}`
+          open ? styles.header__menu__overlay : `${styles.header__menu__overlay} ${styles.isHidden}`
         }
       >
         <nav className={styles.header__menu__overlay__container}>

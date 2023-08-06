@@ -18,7 +18,7 @@
   padding: 1px 6px; /* It is important to set the button's default padding. */
 }
 
-.toggle-button > div {
+.toggle_button > div {
   background: var(--secondary-color);
   height: 2px;
   width: 100%;
@@ -27,15 +27,15 @@
   transform-origin: left;
 }
 
-.toggle-button div:first-child {
+.toggle_button div:first-child {
   transform: rotate(0deg);
 }
 
-.toggle-button div:nth-child(2) {
+.toggle_button div:nth-child(2) {
   opacity: 1;
 }
 
-.toggle-button div:last-child {
+.toggle_button div:last-child {
   transform: rotate(0deg);
 }
 
