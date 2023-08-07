@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from "react";
 import Image from "next/image";
 import Logo from "/public/logo.svg";
 import Navbar from "../components/navbar/Navbar";
@@ -12,6 +15,31 @@ import SocialMediaFooter from "../components/social-media-footer/SocialMediaFoot
 import styles from "./page.module.css";
 
 export default function Home() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      // The entries is a list of the observed elements that have crossed the threshold.
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.intersectionRatio > 0.5) {
+            entry.target.classList.add("show");
+            entry.target.classList.remove("hidden");
+          }
+        });
+      },
+      {
+        threshold: [0.5, 1],
+      },
+    );
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      hiddenElements.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
+
   return (
     <>
       <header className={styles.header}>
