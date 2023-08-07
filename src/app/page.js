@@ -46,7 +46,7 @@ export default function Home() {
         <div className={styles.header__container}>
           <nav className={styles.header__navbar}>
             <div>
-              <a href="/portfolio">
+              <a href="/">
                 <Image src={Logo} alt="logo" />
               </a>
             </div>

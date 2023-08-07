@@ -13,11 +13,7 @@ function About() {
           <input type="text" name="name" placeholder="Your name" required />
           <input type="email" name="email" placeholder="Your email" required />
           <input type="hidden" name="_subject" value="New submission!" />
-          <input
-            type="hidden"
-            name="_next"
-            value="https://clouddcoder.github.io/portfolio/Thanks"
-          />
+          <input type="hidden" name="_next" value="https://www.spiegell.live/Thanks" />
           <textarea
             className={styles.textarea}
             name="message"
