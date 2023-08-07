@@ -21,6 +21,7 @@ function About() {
         <h2>My skills</h2>
         <div className={styles["my-skills-list"]}>
           <div>React</div>
+          <div>Next</div>
           <div>Javascript</div>
           <div>Docker</div>
           <div>HTML</div>
@@ -35,8 +36,6 @@ function About() {
           <div>Express</div>
           <div>PostgreSQL</div>
           <div>GCP</div>
-          <div>Nginx</div>
-          <div>Astro</div>
         </div>
       </div>
     </section>
