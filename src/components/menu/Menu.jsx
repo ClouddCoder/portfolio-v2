@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import styles from "./Menu.module.css";
 
 /**
@@ -53,19 +54,19 @@ function Menu() {
         <nav className={styles.header__menu__overlay__container}>
           <ul className={styles.header__menu__overlay__links} onClick={() => setOpen(false)}>
             <li>
-              <a href="#about">About</a>
+              <Link href="#about">About</Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link href="#projects">Projects</Link>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
           <div>
-            <a href="./resume.pdf" className={styles.button_resume}>
+            <Link href="./resume.pdf" className={styles.button_resume}>
               Resume
-            </a>
+            </Link>
           </div>
         </nav>
       </aside>

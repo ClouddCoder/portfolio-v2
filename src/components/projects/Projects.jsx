@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import Ecommerce from "../../assets/ecommerce.png";
 import Encriptador from "../../assets/encriptador.png";
@@ -27,13 +28,13 @@ function Projects() {
                 <span>REST</span>
                 <span>MUI</span>
               </div>
-              <a
+              <Link
                 className={`${styles["btn-visit-website"]} ${styles.a}`}
                 href="https://lottus.onrender.com"
                 target="_blank"
               >
                 Visit Website
-              </a>
+              </Link>
             </figurecaption>
           </figure>
         </div>
@@ -47,13 +48,13 @@ function Projects() {
                 <span>CSS</span>
                 <span>JavaScript</span>
               </div>
-              <a
+              <Link
                 className={`${styles["btn-visit-website"]} ${styles.a}`}
                 href="https://clouddcoder.github.io/encriptador-alura/"
                 target="_blank"
               >
                 Visit Website
-              </a>
+              </Link>
             </figurecaption>
           </figure>
         </div>
@@ -70,13 +71,13 @@ function Projects() {
                 <span>CSS</span>
                 <span>Tailwind</span>
               </div>
-              <a
+              <Link
                 className={`${styles["btn-visit-website"]} ${styles.a}`}
                 href="https://weather-app-fm3c.onrender.com"
                 target="_blank"
               >
                 Visit Website
-              </a>
+              </Link>
             </figurecaption>
           </figure>
         </div>
@@ -96,13 +97,13 @@ function Projects() {
                 <span>Docker</span>
                 <span>JWT</span>
               </div>
-              <a
+              <Link
                 className={`${styles["btn-visit-website"]} ${styles.a}`}
                 href="https://task-manager-sn3p.onrender.com"
                 target="_blank"
               >
                 Visit Website
-              </a>
+              </Link>
             </figurecaption>
           </figure>
         </div>

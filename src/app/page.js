@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import Logo from "/public/logo.svg";
 import Navbar from "../components/navbar/Navbar";
@@ -46,9 +47,9 @@ export default function Home() {
         <div className={styles.header__container}>
           <nav className={styles.header__navbar}>
             <div>
-              <a href="/">
+              <Link href="/">
                 <Image src={Logo} alt="logo" />
-              </a>
+              </Link>
             </div>
             <Navbar />
             <Menu>

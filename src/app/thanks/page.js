@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./page.module.css";
 
 function page() {
@@ -7,9 +8,9 @@ function page() {
         <h1 className={styles.h1}>Thanks!</h1>
         <p className={styles.p}>The form was submitted successfully.</p>
         <p>You may return to the homepage.</p>
-        <a className={styles.a} href="/">
+        <Link className={styles.a} href="/">
           Go to homepage
-        </a>
+        </Link>
       </div>
     </main>
   );

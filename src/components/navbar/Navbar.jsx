@@ -1,18 +1,19 @@
-import styles from "./Navbar.module.css";
+import Link from "next/link";
 import ResumeButton from "../resume-button/ResumeButton";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
     <div className={`${styles.header__navbar__container} hidden`}>
       <ul className={styles.header__navbar__links}>
         <li>
-          <a href="#about">About</a>
+          <Link href="#about">About</Link>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <Link href="#projects">Projects</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link href="#contact">Contact</Link>
         </li>
       </ul>
       <div>

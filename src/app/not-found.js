@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./not-found.module.css";
 
 function page() {
@@ -14,9 +15,9 @@ function page() {
           </p>
           <p>
             You may find what you&apos;re looking for on the{" "}
-            <a className={styles.a} href="/">
+            <Link className={styles.a} href="/">
               homepage
-            </a>
+            </Link>
             .
           </p>
         </div>
