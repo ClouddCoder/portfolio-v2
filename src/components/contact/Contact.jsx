@@ -13,7 +13,7 @@ function About() {
           <input type="text" name="name" placeholder="Your name" required />
           <input type="email" name="email" placeholder="Your email" required />
           <input type="hidden" name="_subject" value="New submission!" />
-          <input type="hidden" name="_next" value="spiegell.live/thanks" />
+          <input type="hidden" name="_next" value="https://spiegell.live/thanks" />
           <textarea
             className={styles.textarea}
             name="message"
