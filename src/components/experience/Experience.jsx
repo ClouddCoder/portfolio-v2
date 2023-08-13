@@ -5,7 +5,7 @@ function Experience() {
     <section id="experience" className={styles.experience}>
       <div className={`${styles.container} hidden`}>
         <h2>Experience</h2>
-        <ul>
+        <ul className={styles["experience-list"]}>
           <li>
             <div className={styles["experience-item"]}>
               <span className={styles.span}>APRIL 2023 - PRESENT</span>
@@ -17,9 +17,15 @@ function Experience() {
                   code by 20% and enhanced the use of Docker.
                 </p>
                 <ul className={styles["experience-skills"]}>
-                  <li>Magento</li>
-                  <li>PHP</li>
-                  <li>JavaScript</li>
+                  <li>
+                    <div>Magento</div>
+                  </li>
+                  <li>
+                    <div>PHP</div>
+                  </li>
+                  <li>
+                    <div>JavaScript</div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -34,10 +40,18 @@ function Experience() {
                   and professors, using HTML, CSS, JavaScript y PHP.
                 </p>
                 <ul className={styles["experience-skills"]}>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>PHP</li>
+                  <li>
+                    <div>HTML</div>
+                  </li>
+                  <li>
+                    <div>CSS</div>
+                  </li>
+                  <li>
+                    <div>JavaScript</div>
+                  </li>
+                  <li>
+                    <div>PHP</div>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -50,5 +50,16 @@
 
 .experience-skills {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.experience-skills li div {
+  background: var(--secondary-color);
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+}
+
+.experience-list li:not(:first-child) .experience-item {
+  margin-top: 4rem;
 }
