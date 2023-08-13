@@ -8,6 +8,7 @@ import Navbar from "../components/navbar/Navbar";
 import Menu from "../components/menu/Menu";
 import Hero from "../components/hero/Hero";
 import About from "../components/about/About";
+import Experience from "../components/experience/Experience";
 import Projects from "../components/projects/Projects";
 import Contact from "../components/contact/Contact";
 import ResumeButton from "../components/resume-button/ResumeButton";
@@ -68,6 +69,7 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <About />
+        <Experience />
         <Projects />
         <Contact />
       </main>
