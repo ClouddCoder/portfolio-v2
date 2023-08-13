@@ -12,7 +12,7 @@ function Hero() {
       >
         Brayan Sanchez.
       </h2>
-      <h3 className={`${styles["hero-field"]} ${styles.h3} hidden`} style={{ "--order": 7 }}>
+      <h3 className={`${styles["hero-field"]} hidden`} style={{ "--order": 7 }}>
         Always learning to be better.
       </h3>
       <p className={`${styles["hero-field"]} ${styles.p} hidden `} style={{ "--order": 8 }}>

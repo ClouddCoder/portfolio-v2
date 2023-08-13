@@ -1,0 +1,38 @@
+.experience,
+.container,
+.experience-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  gap: 50px;
+}
+
+.container,
+.experience-item {
+  gap: 20px;
+}
+
+.span {
+  color: var(--fc-paragraph);
+  min-width: 250px;
+  font-size: clamp(0.75rem, 5vw, 1rem);
+}
+
+.h3 {
+  font-size: clamp(1rem, 5vw, 1.25rem);
+}
+
+.experience-item {
+  display: flex;
+}
+
+.experience-content {
+  gap: 10px;
+}
+
+.experience-skills {
+  display: flex;
+  justify-content: space-between;
+}
