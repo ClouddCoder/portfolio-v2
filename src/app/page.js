@@ -13,10 +13,15 @@ import Contact from "../components/contact/Contact";
 import ResumeButton from "../components/resume-button/ResumeButton";
 import SocialMediaBar from "../components/social-media-bar/SocialMediaBar";
 import SocialMediaFooter from "../components/social-media-footer/SocialMediaFooter";
+import { handleOnMouseMove } from "../utils/radialGradient";
 import styles from "./page.module.css";
 
 export default function Home() {
   useEffect(() => {
+    document
+      .querySelector(".light-container")
+      .addEventListener("mousemove", (e) => handleOnMouseMove(e));
+
     const observer = new IntersectionObserver(
       // The entries is a list of the observed elements that have crossed the threshold.
       (entries) => {
@@ -42,7 +47,8 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <div className={`${styles.container} light-container`}>
+      <div className={`${styles.effect} light`} />
       <header className={styles.header}>
         <div className={styles.header__container}>
           <nav className={styles.header__navbar}>
@@ -72,6 +78,6 @@ export default function Home() {
           <p className={styles.p}>© Copyrigth 2023</p>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
