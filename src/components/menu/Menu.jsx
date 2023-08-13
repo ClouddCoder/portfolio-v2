@@ -57,6 +57,9 @@ function Menu() {
               <Link href="#about">About</Link>
             </li>
             <li>
+              <Link href="#experience">Experience</Link>
+            </li>
+            <li>
               <Link href="#projects">Projects</Link>
             </li>
             <li>
