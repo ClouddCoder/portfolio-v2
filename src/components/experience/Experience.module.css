@@ -6,7 +6,7 @@
 }
 
 .experience {
-  gap: 50px;
+  align-items: center;
 }
 
 .container,
@@ -14,14 +14,30 @@
   gap: 20px;
 }
 
+.container {
+  justify-content: center;
+  max-width: 700px;
+}
+
 .span {
+  font-weight: 200;
   color: var(--fc-paragraph);
   min-width: 250px;
   font-size: clamp(0.75rem, 5vw, 1rem);
 }
 
+.h2 {
+  width: 100%;
+}
+
 .h3 {
+  width: 100%;
   font-size: clamp(1rem, 5vw, 1.25rem);
+}
+
+.p {
+  margin-top: 0.5rem;
+  font-weight: 200;
 }
 
 .experience-item {

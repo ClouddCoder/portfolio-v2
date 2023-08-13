@@ -11,10 +11,10 @@ function Experience() {
               <span className={styles.span}>APRIL 2023 - PRESENT</span>
               <div className={styles["experience-content"]}>
                 <h3 className={styles.h3}>Aventi Solutions - Back-end Developer</h3>
-                <p>
-                  Develop Ecommerce sites using Magento to national and international companies.
-                  Implemented improvements in the JavaScript development optimizing the code by 20%
-                  and enhanced the use of Docker.
+                <p className={styles.p}>
+                  Develop Ecommerce sites built with Magento to national and international
+                  companies. Implemented improvements in the JavaScript development optimizing the
+                  code by 20% and enhanced the use of Docker.
                 </p>
                 <ul className={styles["experience-skills"]}>
                   <li>Magento</li>
@@ -29,7 +29,7 @@ function Experience() {
               <span className={styles.span}>APRIL 2022 - JANUARY 2023</span>
               <div className={styles["experience-content"]}>
                 <h3 className={styles.h3}>Universidad del Valle - Software Developer</h3>
-                <p>
+                <p className={styles.p}>
                   Improved the design and functionality of the university’s software for students
                   and professors, using HTML, CSS, JavaScript y PHP.
                 </p>
@@ -47,7 +47,7 @@ function Experience() {
               <span className={styles.span}>JUNE 2017 - JUNE 2018</span>
               <div className={styles["experience-content"]}>
                 <h3 className={styles.h3}>Abbott - Intern</h3>
-                <p>Performed administrative tasks as an office assistant.</p>
+                <p className={styles.p}>Performed administrative tasks as an office assistant.</p>
               </div>
             </div>
           </li>
