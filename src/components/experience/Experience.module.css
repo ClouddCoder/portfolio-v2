@@ -44,6 +44,12 @@
   display: flex;
 }
 
+@media only screen and (max-width: 768px) {
+  .experience-item {
+    flex-direction: column;
+  }
+}
+
 .experience-content {
   gap: 10px;
 }
