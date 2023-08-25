@@ -7,13 +7,13 @@ function About() {
         <h2>About me</h2>
         <div className={styles["about-me"]}>
           <p>
-            <strong>Self-taught</strong> programmer and Systems engineering student from Colombia
-            with 1 year of experience as a software developer. Technology have always been my
-            passion and it allows me to reach many goals through my life.
+            <strong>Self-taught</strong> programmer and systems engineering student from Colombia
+            with 1 year of experience as a back-end developer. Technology has always been my passion
+            and it has allowed me to achieve many goals in my life.
           </p>
           <p>
-            Learning about Full stack skills is my main objective to scale in the technological
-            industry.
+            Perseverance and hard work are always in my mind to be better every day in building
+            quality products.
           </p>
         </div>
       </div>
