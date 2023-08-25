@@ -20,20 +20,18 @@ function About() {
       <div className={`${styles.container} hidden`}>
         <h2>My skills</h2>
         <div className={styles["my-skills-list"]}>
+          <div>Node.js</div>
+          <div>Express</div>
           <div>React</div>
           <div>Next</div>
           <div>Javascript</div>
           <div>Docker</div>
-          <div>HTML</div>
-          <div>CSS</div>
           <div>Git</div>
           <div>GitHub</div>
           <div>Material UI</div>
           <div>REST</div>
           <div>Linux</div>
           <div>Jest</div>
-          <div>Node.js</div>
-          <div>Express</div>
           <div>PostgreSQL</div>
           <div>GCP</div>
         </div>
