@@ -17,7 +17,7 @@ function Hero() {
       </h3>
       <p className={`${styles["hero-field"]} ${styles.p} hidden `} style={{ "--order": 8 }}>
         <strong>Back-end developer</strong> focused on building scalable and optimized
-        <strong> web applications</strong> implementing the best tools to optimize the performance.
+        <strong> web applications,</strong> implementing the best practices for better performance.
       </p>
     </section>
   );
