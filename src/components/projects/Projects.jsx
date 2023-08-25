@@ -16,7 +16,7 @@ function Projects() {
             <Image className={styles.img} src={Ecommerce} alt="ecommerce" />
             <figurecaption className={styles.figurecaption}>
               <p className={`${styles.p} ${styles.caption}`}>
-                Ecommerce with authentication, cart and checkout
+                Ecommerce with authentication, cart, checkout, wishlist and more.
               </p>
               <div className={`${styles.div} ${styles.stack}`}>
                 <span>React</span>
