@@ -32,7 +32,7 @@ function Experience() {
           </li>
           <li>
             <div className={styles["experience-item"]}>
-              <span className={styles.span}>APRIL 2022 - JANUARY 2023</span>
+              <span className={styles.span}>APRIL 2021 - JANUARY 2023</span>
               <div className={styles["experience-content"]}>
                 <h3 className={styles.h3}>Universidad del Valle - Software Developer</h3>
                 <p className={styles.p}>
@@ -61,7 +61,7 @@ function Experience() {
               <span className={styles.span}>JUNE 2017 - JUNE 2018</span>
               <div className={styles["experience-content"]}>
                 <h3 className={styles.h3}>Abbott - Intern</h3>
-                <p className={styles.p}>Performed administrative tasks as an office assistant.</p>
+                <p className={styles.p}>Performed tasks as IT support.</p>
               </div>
             </div>
           </li>

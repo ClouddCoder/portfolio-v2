@@ -8,8 +8,7 @@ function About() {
         <div className={styles["about-me"]}>
           <p>
             <strong>Self-taught</strong> programmer and systems engineering student from Colombia
-            with 1 year of experience as a back-end developer. Technology has always been my passion
-            and it has allowed me to achieve many goals in my life.
+            with 2 years of experience as a Software developer. I have adapted to several programming languages according to the needs, but the best technologies will always come first.
           </p>
           <p>
             Perseverance and hard work are always in my mind to be better every day in building
